@@ -14,10 +14,10 @@
   "test": "echo \"Error: no test specified\" && exit 1",
   
     
-  "start": "node server.js",
+  "start": "node api/server.js",
   
     
-  "dev": "nodemon server.js"
+  "dev": "nodemon api/server.js"
   
   },
   
@@ -54,7 +54,10 @@
   "leaflet": "^1.9.4",
   
     
-  "mongoose": "^8.12.1"
+  "mongoose": "^8.12.1",
+  
+    
+  "react-select": "^5.10.1"
   
   },
   
